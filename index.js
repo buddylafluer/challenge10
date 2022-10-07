@@ -1,10 +1,10 @@
-const manager = require("./lib/Manager");
-const engineer = require("./lib/Engineer.js");
-const intern = require("./lib/Intern.js");
+const Manager = require("./lib/manager.js");
+const Engineer = require("./lib/engineer.js");
+const Intern = require("./lib/intern.js");
 const inquirer = require("inquirer");
 const path = require("path");
 const fs = require("fs");
-const OUTPUT_DIR = path.resolve(__dirname, "output");
+const OUTPUT_DIR = path.resolve(__dirname, "dist");
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 const generateTeam = require("./src/template.js")
 
@@ -143,12 +143,6 @@ function runApp () {
   
     }
   
-    // return to menu with option to add another team member create team
-  
-    // Would you like to add a team member?
-    // Yes || No
-    // If Yes --> Then select an employee role for your new team member: Manager, Engineer, Intern
-    // If No --> Create Team
   
   
   function htmlBuilder () {
