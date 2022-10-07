@@ -1,0 +1,30 @@
+{
+  "name": "challenge10-teamprofile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buddylafluer/challenge10.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buddylafluer/challenge10/issues"
+  },
+  "homepage": "https://github.com/buddylafluer/challenge10#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
